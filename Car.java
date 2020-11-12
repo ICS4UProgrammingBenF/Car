@@ -26,7 +26,7 @@ public class Car {
   */
   public void accel()  {
     //accelerate the vehicle
-    if (speed > maxSpeed) {
+    if (speed < maxSpeed) {
       speed++;
     } else  {
       System.out.println("Unable to speed up");
