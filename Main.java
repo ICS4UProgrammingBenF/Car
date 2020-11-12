@@ -177,5 +177,9 @@ public class Main {
         System.out.println("An input was invalid, try again");
       }
     } while (valid == false);
+    
+    //print the cars' data
+    firstCar.print();
+    secondCar.print();
   }
 }
