@@ -86,6 +86,6 @@ public class Car {
     bufferedWriter.write("Max Speed: " + maxSpeed);
     
     //close the buffered writer
-    bufferedWriter.close()
+    bufferedWriter.close();
   }
 }
